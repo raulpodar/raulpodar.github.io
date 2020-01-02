@@ -34,6 +34,12 @@ article{
     grid-area:b;
     
 }
+section{
+  display: block;
+  margin-top: 30%;
+  grid-area: b;
+  text-align: center;
+}
 #buttons {
   margin-left: auto;
   margin-right: auto;
@@ -55,8 +61,9 @@ li{
 }
 li a{
   padding:1% 5% 1% 5%;
-  background-color: aquamarine;
-  border: 1px black solid;
+  background-color: #72b0e8;
+  border: 1px green solid;
   text-decoration: none;
-  font-weight: bold;  
+  font-weight: bold; 
+  color:aquamarine; 
 }
