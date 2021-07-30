@@ -3,8 +3,10 @@ body{
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
     "a h c"
-    "a b c"
-    "a b c";
+    "a buttons c"
+    "a about c"
+    "a projects c";
+    
     background-color: #FFFFFF;
 }
 div.sticky {
@@ -29,14 +31,17 @@ header{
 }
 
 article{
-    grid-area:b;
+    grid-area:projects;
     
 }
 section{
   display: block;
   margin-top: 30%;
-  grid-area: b;
+  grid-area: projects;
   text-align: center;
+}
+article #buttons{
+  grid-area: buttons;
 }
 #buttons {
   margin-left: auto;
@@ -45,9 +50,62 @@ section{
   text-align: center;
   margin-top: 15%;
   margin-bottom: 17%;
+  
  
   
   
+}
+body {
+  background: #E5F0FB;
+}
+
+.corners { 
+  grid-area: about;
+  background:#4D9BDF;
+
+  /* margin: 100px auto; */
+  
+    
+  position: relative;
+  box-shadow: 0 1px 7px hsla(0, 0%, 0%, 0.2);
+}
+
+/* Corner Effect */
+.corners:after,
+.corners:before {
+  background: #E5F0FB;
+  content: '';
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  width: 100px;
+  box-shadow: 0 5px 10px -7px hsla(0, 0% ,0%, 0.5);
+}
+.corners:after {
+  left: -50px;
+  transform: rotate(-45deg);
+}
+.corners:before {
+  right: -50px;
+  transform: rotate(45deg);
+}
+.content {
+  margin-bottom: 4em;
+}
+.content p {
+  display: inline;
+  background-repeat: no-repeat;
+  transition: all 800ms ease-in-out;
+}
+.spoil p {
+  color: transparent;
+  background-position: right;
+  background-size: 100% 100%;
+  background-image: linear-gradient(#4953CF, #4953CF);
+}
+.spoil:hover p {
+  color: #000;
+  background-size: 0% 100%;
 }
 ul{
   display: inline;
@@ -61,7 +119,7 @@ li{
 
 #projects article{
   margin: 5%;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 #projects article:hover{
@@ -106,3 +164,85 @@ li a:hover{
 #loadingAd{
   opacity:1;
 }
+
+
+/*sticky notes */
+#stickyNotes ul,li{
+  list-style:none;
+}
+#stickyNotes ul{
+  overflow:hidden;
+  padding:3em;
+  text-align:center;
+  margin-left: 25%;
+}
+#stickyNotes ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#FDAE49;
+  display:block;
+  height:10em;
+  width:10em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+#stickyNotes ul li{
+  margin:1em;
+  float:left;
+  text-align: center;
+}
+#stickyNotes ul li h2{
+  font-size:140%;
+  font-weight:bold;
+  padding-bottom:10px;
+}
+#stickyNotes ul li p{
+  font-family:"Reenie Beanie",arial,sans-serif;
+  font-size:180%;
+}
+#stickyNotes ul li a{
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+#stickyNotes ul li:nth-child(even) a{
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+  background:#cfc;
+}
+#stickyNotes ul li:nth-child(3n) a{
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  background:#56BDE6;
+}
+#stickyNotes ul li:nth-child(5n) a{
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+#stickyNotes ul li a:hover,ul li a:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+#stickyNotes ol{text-align:center;}
+#stickyNotes ol li{display:inline;padding-right:1em;}
+#stickyNotes   ol li a{color:#fff;}
