@@ -6,8 +6,8 @@
     grid-template-areas: 
     "a h c"
     "a content c";
+    background: #E5F0FB;
     
-    background-color: #FFFFFF;
 }
 div.sticky {
     position: -webkit-sticky;
@@ -49,15 +49,15 @@ section{
   display: block;
   text-align: center;
   margin-top: 15%;
+  height: 12em;
   /* margin-bottom: 17%; */
   
  
   
   
 }
-body {
-  background: #E5F0FB;
-}
+
+
 
 .corners { 
   grid-area: content;
@@ -80,9 +80,11 @@ body {
   top: -25px;
   width: 100px;
   box-shadow: 0 5px 10px -7px hsla(0, 0% ,0%, 0.5);
+  
 }
 .corners:after {
   left: -50px;
+
   transform: rotate(-45deg);
 }
 .corners:before {
@@ -178,8 +180,8 @@ body{
     grid-template-areas: 
     "a h c"
     "a content c";
-    
-    background-color: #FFFFFF;
+    background: #E5F0FB;
+
 }
 div.sticky {
     position: -webkit-sticky;
@@ -221,20 +223,14 @@ section{
   display: block;
   text-align: center;
   margin-top: 15%;
-  /* margin-bottom: 17%; */
-  
- 
-  
-  
-}
-body {
-  background: #E5F0FB;
+
+
 }
 
 .corners { 
   grid-area: content;
   background:#4D9BDF;
-
+  
   /* margin: 100px auto; */
   
     
@@ -286,7 +282,6 @@ li{
   margin: 0%;
   display: inline;
 
-
 }
 
 #projects article{
@@ -310,6 +305,7 @@ li a{
   color:black; 
   transition: all 150ms ease-in-out;
   border-radius: 1rem;
+  
 }
 
 li a:hover{
