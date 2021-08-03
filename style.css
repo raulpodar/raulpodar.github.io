@@ -1,5 +1,8 @@
 @media only screen and (max-width: 600px) {
-
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
   body{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -172,7 +175,10 @@ li a:hover{
 
 /*sticky notes */
 @media only screen and (min-width: 601px) {
-  
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body{
     display: grid;
