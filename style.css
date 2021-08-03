@@ -7,7 +7,7 @@
     "a h c"
     "a content c";
     
-    background-color: red;
+    background-color: #FFFFFF;
 }
 div.sticky {
     position: -webkit-sticky;
@@ -73,7 +73,7 @@ body {
 /* Corner Effect */
 .corners:after,
 .corners:before {
-  background: #E5F0FB;
+  background: #4D9BDF;
   content: '';
   height: 50px;
   position: absolute;
