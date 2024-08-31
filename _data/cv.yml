@@ -1,97 +1,91 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+name: "Raul Marius Podar"
+contact:
+  email: "raulpodar0@gmail.com"
+  linkedin: "LinkedIn Profile URL"
+  phone: "00447493551657"
+  portfolio: "Portfolio URL"
+summary: >
+  Experienced Android Engineer with over 5 years in the software industry. I am passionate about mentoring, which not only allows me to share knowledge but also deepens my understanding. I excel in taking a systemic approach to problem-solving, driving projects forward with scalable and efficient solutions.
+tech_stack:
+  - "Android XML layouts"
+  - "Compose"
+  - "Coroutines"
+  - "Room Database"
+  - "Kotlin"
+  - "SwiftUI"
+  - "GraphQL"
+  - "MVVM"
+  - "Kotlin Multiplatform"
+  - "RxJava"
+  - "Jenkins"
+  - "CircleCi"
+employment:
+  - company: "Sky"
+    role: "Android Engineer"
+    start_date: "February 2024"
+    end_date: "Present"
+    responsibilities:
+      - "Entrusted by management to lead and maintain a critical legacy project generating £30 million per quarter. Acted as the Tech Lead, ensuring the project's continued success and stability."
+      - "Owned the release process and incorporated long-overdue automations that saved up to 3 hours for each merge into our config repository."
+      - "Mentored three junior members by proactively reviewing their code and guiding them through the project, helping them earn confidence and greater ownership."
+      - "Finalized a migration to Mediatailor resulting in approximately £1 million saved annually on fees and enabling live personalized ads for users."
+      - "Managed the tech-debt backlog and led tech sessions to share knowledge within the team."
+      - "Ensured a smooth transition to ExoPlayer after a complex and time-consuming team effort."
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+  - company: "NiloHealth"
+    role: "Android and iOS Engineer"
+    start_date: "September 2022"
+    end_date: "December 2023"
+    responsibilities:
+      - "Worked closely with the Product team to better define the requirements of the Mobile Apps."
+      - "Responsible for releases to AppStore and PlayStore, ensuring no critical bugs are released."
+      - "Created an automation script that reduced person-hours by 2 hours for every release (Python)."
+      - "Developed novel features for Android (Compose and Coroutines) and iOS (Swift UI) that increased content activation by 25% and doubled the number of registrations to roundtable events."
+      - "Restructured the data layer of mobile apps using newly introduced design patterns (e.g., Repository)."
+      - "Contributed to architectural adjustments within the UI layer, resulting in loosely coupled code and reducing critical bugs (UI freezes) by 40%."
+      - "Responsible for research, ticket definitions, and development of various features, such as local notifications for both mobile platforms."
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+  - company: "Sky"
+    role: "Android Mobile Developer"
+    start_date: "September 2021"
+    end_date: "September 2022"
+    responsibilities:
+      - "Led the development of a GraphQL middleware for an R&D project to investigate optimizations of API calls."
+      - "Voted by peers as the winner of the Mobile Academy after a training program."
+      - "Practiced Agile development within the Sky Go Android team, using TDD and maintaining a feature-based modular application following an MVVM architecture (RxJava, Coroutines, Kotlin, Room, Compose, Activities)."
+      - "Led the UI development of a new Splash Screen in Compose."
+      - "Responsible for the development of the CI/CD pipeline in Jenkins as part of an educational project."
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+  - company: "Phlashweb"
+    role: "Web Developer"
+    start_date: "August 2019"
+    end_date: "December 2019"
+    responsibilities:
+      - "Captured reusable components of a Laravel (PHP) web application and optimized the code."
+      - "Created testing sandboxes and performed several server migrations."
+      - "Implemented parts of existing WordPress projects."
+      - "Responsible for fixing various visual bugs to improve website responsiveness."
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+  - company: "Queen Mary University of London"
+    role: "Laboratory Demonstrator"
+    start_date: "September 2019"
+    end_date: "April 2021"
+    responsibilities:
+      - "Assisted with the delivery of practical exercises for level 4 and 5 modules."
+      - "Managed groups of students by guiding them weekly based on a semester-long project (Software Engineering)."
+      - "Helped with assessments of coursework and provided feedback to students."
+      - "Assisted in modules: Software Engineering, Algorithms and Data Structures, Procedural Programming, Computer Systems and Networks, Logic and Discrete Structures, Fundamentals of Web Technology."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+education:
+  - degree: "BSc in Computer Science"
+    institution: "Queen Mary University of London"
+    graduation_year: "2021"
+    honors: "First-class Honours (average mark of 85)"
+    relevant_modules:
+      - "Big Data"
+      - "Distributed Systems"
+      - "Artificial Intelligence"
+      - "Bayesian Risk and Analysis"
+      - "Software Engineering"
+    dissertation: >
+      "A 2-axis political spectrum analysis from Twitter data and towards classification" (Sentiment Analysis, LIWC, B.O.W, TF-IDF)
