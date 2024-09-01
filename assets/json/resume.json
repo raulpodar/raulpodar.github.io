@@ -1,200 +1,200 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Raul Podar",
+    "label": "Android Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "raulpodar0@gmail.com",
+    "phone": "00447493551657",
+    "url": "Portfolio URL",
+    "summary": "Experienced Android Engineer with over 5 years in the software industry. I am passionate about mentoring, which not only allows me to share knowledge but also deepens my understanding. I excel in taking a systemic approach to problem-solving, driving projects forward with scalable and efficient solutions.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "London",
+      "countryCode": "GB",
+      "region": ""
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "Raul Marius Podar",
+        "url": "LinkedIn Profile URL"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Sky",
+      "position": "Android Engineer",
+      "url": "",
+      "startDate": "2024-02-01",
+      "endDate": "",
+      "summary": "Entrusted by management to lead and maintain a critical legacy project generating £30 million per quarter. Acted as the Tech Lead, ensuring the project's continued success and stability.",
+      "highlights": [
+        "Owned the release process and incorporated long-overdue automations that saved up to 3 hours for each merge into our config repository.",
+        "Mentored three junior members by proactively reviewing their code and guiding them through the project, helping them earn confidence and greater ownership.",
+        "Finalized a migration to Mediatailor resulting in approximately £1 million saved annually on fees and enabling live personalized ads for users.",
+        "Managed the tech-debt backlog and led tech sessions to share knowledge within the team.",
+        "Ensured a smooth transition to ExoPlayer after a complex and time-consuming team effort."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "NiloHealth",
+      "position": "Android and iOS Engineer",
+      "url": "",
+      "startDate": "2022-09-01",
+      "endDate": "2023-12-01",
+      "summary": "Worked closely with the Product team to better define the requirements of the Mobile Apps.",
+      "highlights": [
+        "Responsible for releases to AppStore and PlayStore, ensuring no critical bugs are released.",
+        "Created an automation script that reduced person-hours by 2 hours for every release (Python).",
+        "Developed novel features for Android (Compose and Coroutines) and iOS (Swift UI) that increased content activation by 25% and doubled the number of registrations to roundtable events.",
+        "Restructured the data layer of mobile apps using newly introduced design patterns (e.g., Repository).",
+        "Contributed to architectural adjustments within the UI layer, resulting in loosely coupled code and reducing critical bugs (UI freezes) by 40%.",
+        "Responsible for research, ticket definitions, and development of various features, such as local notifications for both mobile platforms."
+      ]
+    },
+    {
+      "name": "Sky",
+      "position": "Android Mobile Developer",
+      "url": "",
+      "startDate": "2021-09-01",
+      "endDate": "2022-09-01",
+      "summary": "Led the development of a GraphQL middleware for an R&D project to investigate optimizations of API calls.",
+      "highlights": [
+        "Voted by peers as the winner of the Mobile Academy after a training program.",
+        "Practiced Agile development within the Sky Go Android team, using TDD and maintaining a feature-based modular application following an MVVM architecture.",
+        "Led the UI development of a new Splash Screen in Compose.",
+        "Responsible for the development of the CI/CD pipeline in Jenkins as part of an educational project."
+      ]
+    },
+    {
+      "name": "Phlashweb",
+      "position": "Web Developer",
+      "url": "",
+      "startDate": "2019-08-01",
+      "endDate": "2019-12-01",
+      "summary": "Captured reusable components of a Laravel (PHP) web application and optimized the code.",
+      "highlights": [
+        "Created testing sandboxes and performed several server migrations.",
+        "Implemented parts of existing WordPress projects.",
+        "Responsible for fixing various visual bugs to improve website responsiveness."
+      ]
+    },
+    {
+      "name": "Queen Mary University of London",
+      "position": "Laboratory Demonstrator",
+      "url": "",
+      "startDate": "2019-09-01",
+      "endDate": "2021-04-01",
+      "summary": "Assisted with the delivery of practical exercises for level 4 and 5 modules.",
+      "highlights": [
+        "Managed groups of students by guiding them weekly based on a semester-long project (Software Engineering).",
+        "Helped with assessments of coursework and provided feedback to students.",
+        "Assisted in modules: Software Engineering, Algorithms and Data Structures, Procedural Programming, Computer Systems and Networks, Logic and Discrete Structures, Fundamentals of Web Technology."
+      ]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Queen Mary University of London",
+      "location": "London, United Kingdom",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "BSc",
+      "startDate": "",
+      "endDate": "2021-01-01",
+      "score": "First-class Honours (average mark of 85)",
+      "courses": [
+        "Big Data",
+        "Distributed Systems",
+        "Artificial Intelligence",
+        "Bayesian Risk and Analysis",
+        "Software Engineering"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Winner of the Mobile Academy",
+      "date": "2021-11-01",
+      "awarder": "Sky",
+      "summary": "Voted the winner of the Mobile Academy after a training programme in mobile development for iOS and Android."
+    },
+    {
+      "title": "Science and Engineering Excellence Scholarship",
+      "date": "2018-09-01",
+      "awarder": "Queen Mary University of London",
+      "summary": "Awarded 3 times with the Science and Engineering Excellence Scholarship."
+    },
+    {
+      "title": "Finalist in Entrepreneurship Development Programme",
+      "date": "2021-04-01",
+      "awarder": "Queen Mary University of London",
+      "summary": "Finalist for an entrepreneurship development programme."
+    },
+    {
+      "title": "Future Global Leaders Forum Winner",
+      "date": "2020-05-01",
+      "awarder": "Queen Mary University of London",
+      "summary": "Among the winners of the 'Future Global Leaders Forum' as part of a group project."
+    },
+    {
+      "title": "4th Place in Regional SCARA Robot Arm Competition",
+      "date": "2017-02-01",
+      "awarder": "Luigi Cerebotani",
+      "summary": "Placed 4th in a regional competition between high schools for building a SCARA robot arm."
+    },
+    {
+      "title": "Mentioned in 'Giornale di Brescia' Newspaper",
+      "date": "2016-01-01",
+      "awarder": "Giornale di Brescia",
+      "summary": "Mentioned in the local newspaper 'Giornale di Brescia' for academic achievement while in High School."
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
+  "languages": [ {
+    "language": "English",
+    "fluency": "Fluent",
+    "icon": ""
+  },
+  {
+    "language": "Italian",
+    "fluency": "Native",
+    "icon": ""
+  },
+  {
+    "language": "Romanian",
+    "fluency": "Native",
+    "icon": ""
+  }
   ],
   "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
+    // {
+    //   "name": "Laboratory Demonstrator",
+    //   "publisher": "Queen Mary University of London",
+    //   "releaseDate": "2019-09-01 - 2021-04-30",
+    //   "url": "",
+    //   "summary": "Assisted with the delivery and assessments of practical exercises for level 4 and 5 modules. Responsible for managing groups of BSc Software engineering students and guiding them on a semester-long project."
+    // },
+    // {
+    //   "name": "Mentor at Buddy Scheme",
+    //   "publisher": "Queen Mary University of London",
+    //   "releaseDate": "2020-01-01 - 2021-01-01",
+    //   "url": "",
+    //   "summary": "Helped first-year students adapt to the community by organizing events, holding bi-weekly sessions to relieve academic stress, and providing study and organizational tips."
+    // },
+    // {
+    //   "name": "Mentor for Junior Developers",
+    //   "publisher": "Sky",
+    //   "releaseDate": "2021-11-01 - 2022-06-01",
+    //   "url": "",
+    //   "summary": "Guided three junior developers by organizing knowledge-sharing meetings on Software Engineering topics, providing ad-hoc support, reviewing PRs, and offering constructive feedback."
+    // }
   ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "certificates": [],
+  "skills": [],
+  "interests": [],
+  "references": [],
+  "projects": []
 }
