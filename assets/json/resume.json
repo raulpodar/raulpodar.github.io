@@ -106,13 +106,7 @@
       "startDate": "",
       "endDate": "2021-01-01",
       "score": "First-class Honours (average mark of 85)",
-      "courses": [
-        "Big Data",
-        "Distributed Systems",
-        "Artificial Intelligence",
-        "Bayesian Risk and Analysis",
-        "Software Engineering"
-      ]
+      "courses": ["Big Data", "Distributed Systems", "Artificial Intelligence", "Bayesian Risk and Analysis", "Software Engineering"]
     }
   ],
   "awards": [
@@ -153,21 +147,22 @@
       "summary": "Mentioned in the local newspaper 'Giornale di Brescia' for academic achievement while in High School."
     }
   ],
-  "languages": [ {
-    "language": "English",
-    "fluency": "Fluent",
-    "icon": ""
-  },
-  {
-    "language": "Italian",
-    "fluency": "Native",
-    "icon": ""
-  },
-  {
-    "language": "Romanian",
-    "fluency": "Native",
-    "icon": ""
-  }
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Italian",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "Romanian",
+      "fluency": "Native",
+      "icon": ""
+    }
   ],
   "publications": [
     // {
