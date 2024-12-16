@@ -2,25 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-👋 Hi there! I'm RP, an Android Engineer based in London with a love for all things mobile and a healthy respect for ExoPlayer migrations (oh, the stories I could tell!). I’m currently part of the tech team at Sky, where I've been wrangling code, hunting down tech debt, and mentoring our talented juniors, all while keeping a critical project in top shape—no pressure, right? Fun fact: this project brings in a good few millions per quarter, so let’s just say my error count is… “minimized.”
+👋 Hi there! I’m Raul, an Android Engineer based in London with a passion for building smooth, reliable mobile experiences. I’m currently part of the tech team at Sky, where I focus on improving critical projects, mentoring junior developers, and keeping things running efficiently—no small task, but one I enjoy tackling every day.
 
-Over the years, I've worked on Android and iOS apps, even throwing in a bit of Python magic to save time on release processes. I've also dabbled in CI/CD pipelines, refactored data layers, and introduced design patterns for smoother, bug-free experiences. I'm the kind of guy who thinks "legacy project" is just code for "high-stakes puzzle."
+In my experience, I’ve worked on both Android and iOS apps, streamlined processes with a touch of Python, and introduced patterns to make our code more maintainable and robust. I’ve also explored areas like CI/CD and refactoring data layers to help teams deliver better apps with fewer headaches. I see legacy projects not as problems, but as opportunities to solve complex puzzles with high impact.
 
-When I'm not decoding bugs or optimising pipelines, you'll find me diving into physics books, trying to wrap my head around the mysteries of the universe (no big deal). There's something about trying to understand spacetime that really makes debugging legacy projects seem a lot simpler.
+Outside of coding, I enjoy reading about physics and exploring the mysteries of the universe. It’s a humbling reminder of how small bugs are in the grand scheme of things—though I still treat them with the same curiosity and care.
 
-Oh, and if you’re looking for stories about team tech sessions or why modular architecture is basically my love language, feel free to reach out.
+If you’d like to chat about building maintainable code, team knowledge sharing, or why modular architecture is a game-changer, I’d love to connect.
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
